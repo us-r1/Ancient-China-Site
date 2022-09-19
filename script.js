@@ -1,4 +1,4 @@
-var siteWidth = 500;
+var siteWidth = 400;
 var scale = screen.width /siteWidth;
 
 
