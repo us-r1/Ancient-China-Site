@@ -22,10 +22,6 @@ img {
 	max-width: 100%;
 }
 
-button:focus {
-	outline: none;
-}
-
 h1,
 h2,
 h3,
@@ -123,6 +119,52 @@ p {
 	height: 12px;
 	left: -6px;
 	background: #efa22f;
+}
+.info {
+	width: 90%;
+	height: 90%;
+	background: #282733;
+	position: fixed;
+	top: 5%;
+	left: 5%;
+	border-radius: 15px;
+	z-index:99;
+	opacity: 0.9;
+}
+.txtinfo {
+	margin: 2%;
+}
+.btn {
+ 	border: none;
+	cursor: pointer;
+ 	padding: 7.5px 16px;
+	color: inherit;
+	font-size: inherit;
+	margin: inherit;
+	background-color: #353750;
+	border-radius: 10px;
+}
+.btn:hover {
+	background-color: #5A5E88;
+	text-decoration: underline;
+}
+.btnH {
+	font-weight: bold;
+ 	border: none;
+ 	color: white;
+ 	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #353750;
+	border-radius: 10px;
+}
+.btnH:hover {
+	background-color: #5A5E88;
+	text-decoration: underline;
 }
 .l-circle {
 	border-radius: 5px;
